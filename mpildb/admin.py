@@ -1,0 +1,13 @@
+from django.contrib import admin
+
+# Register your models here.
+from django.contrib import admin
+from .models import (ARMetadata, AR_2010_HMI_Magnetogram_720s_CEA_Def, AR_2011_HMI_Magnetogram_720s_CEA_Def, AR_2012_HMI_Magnetogram_720s_CEA_Def, 
+AR_2013_HMI_Magnetogram_720s_CEA_Def, AR_2014_HMI_Magnetogram_720s_CEA_Def, AR_2015_HMI_Magnetogram_720s_CEA_Def, AR_2016_HMI_Magnetogram_720s_CEA_Def, 
+AR_2017_HMI_Magnetogram_720s_CEA_Def, AR_2018_HMI_Magnetogram_720s_CEA_Def, AR_2019_HMI_Magnetogram_720s_CEA_Def)
+
+myModels = [ARMetadata, AR_2010_HMI_Magnetogram_720s_CEA_Def, AR_2011_HMI_Magnetogram_720s_CEA_Def, AR_2012_HMI_Magnetogram_720s_CEA_Def, 
+AR_2013_HMI_Magnetogram_720s_CEA_Def, AR_2014_HMI_Magnetogram_720s_CEA_Def, AR_2015_HMI_Magnetogram_720s_CEA_Def, AR_2016_HMI_Magnetogram_720s_CEA_Def, 
+AR_2017_HMI_Magnetogram_720s_CEA_Def, AR_2018_HMI_Magnetogram_720s_CEA_Def, AR_2019_HMI_Magnetogram_720s_CEA_Def]
+
+admin.site.register(myModels)
